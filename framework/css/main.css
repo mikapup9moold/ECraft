@@ -117,6 +117,10 @@ body {
 	margin: 5px;
 }
 
+.showImage {
+	min-height: 6vw;
+}
+
 a:link, a:visited {
   color: white;
 }
