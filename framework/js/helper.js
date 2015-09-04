@@ -1,3 +1,4 @@
+/*Site Header*/
 var HTMLheaderTitle = '<h1 class="title">%data%</h1>';
 var HTMLheaderBlurb = '<h2 class="blurb mobGone">%data%</h2>';
 var HTMLheaderImage = '<img src="%data%" class="header behind">';

@@ -8,7 +8,7 @@ var header = {
 			 	  "Contact" : 'contact.html'
 			    },
 	"imgMenu" : { "Pictures"       : ["images/menu1.jpg", 'pictures.html'],
-				  "Jewelery"       : ["images/menu1.jpg", 'jewelery.html'],
+				  "Bangles"        : ["images/bang1.jpg", 'bangles'],
 				  "Greeting Cards" : ["images/menu1.jpg", 'greetingcards.html']
 				},
 	"display" : function () {
@@ -126,8 +126,9 @@ var individual = function(item) {
 
 header.display();
 
-$("#showcase").append(showcase(bangles));
+// $("#showcase").append(showcase(bangles));
 
-function menuDisplay() {
-	
+/*Put into the showcase varialbe as a function*/
+function showcaseDisplay(items) {
+	$("#showcase").append(showcase(items)).hide().show(500);
 }
