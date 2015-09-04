@@ -111,9 +111,9 @@ var items_001 = {
 
 var showcase = function(items) {
 	var holder = [];
-	for(image in items) {
-		var formattedItem = HTMLshowcaseItem.replace("%name%", image);
-		formattedItem = formattedItem.replace("%url%", items[image]);
+	for(i = 0; i < items.length; i++) {
+		var formattedItem = HTMLshowcaseItem.replace("%name%", items[i].name);
+		formattedItem = formattedItem.replace("%url%", items[i].images);
 		holder.push(formattedItem);
 	}
 	var formattedShowcase = HTMLshowcase.replace("%data%", holder.join(""));
@@ -126,7 +126,7 @@ var individual = function() {
 
 header.display();
 
-$("#showcase").append(showcase(items_001));
+$("#showcase").append(showcase(bangles));
 
 function menuDisplay() {
 	
