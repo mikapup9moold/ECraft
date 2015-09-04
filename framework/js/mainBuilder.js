@@ -9,7 +9,7 @@ var header = {
 			    },
 	"imgMenu" : { "Pictures"       : ["images/menu1.jpg", 'pictures.html'],
 				  "Bangles"        : ["images/bang1.jpg", 'bangles'],
-				  "Greeting Cards" : ["images/menu1.jpg", 'greetingcards.html']
+				  "Greeting Cards" : ["images/menu1.jpg", 'cards']
 				},
 	"display" : function () {
 		var formattedTitle  = HTMLheaderTitle.replace("%data%", header.title);
@@ -104,6 +104,40 @@ var jewelery = {
 
 };
 
+var card1 = {name		 : 'Anime Girl',
+			 images		 : 'images/aGirl.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+
+var card2 = {name		 : 'Lunar Crane',
+			 images		 : 'images/crane.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+
+var card3 = {name		 : 'Napping Cockatiel',
+			 images		 : 'images/oneBird.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+
+var card4 = {name		 : 'Niwa Tori',
+			 images		 : 'images/twoBird.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+
+var card5 = {name		 : 'Golden Robin',
+			 images		 : 'images/oneRobin.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+
+var cards = [
+	'card', card1, card2, card3, card4, card5
+];
+
 var showcase = function(items) {
 	var holder = [];
 	for(i = 1; i < items.length; i++) {
@@ -135,6 +169,7 @@ var current = "";
 function showcaseDisplay(items) {
 	if (current !== items[0]) {
 		current = items[0];
+		$(".showcase").remove();
 		$("#showcase").append(showcase(items)).hide().slideDown();
 	}
 }
