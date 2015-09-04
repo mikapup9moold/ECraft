@@ -128,7 +128,13 @@ header.display();
 
 // $("#showcase").append(showcase(bangles));
 
+//Global variable keeping track of he current showcase display
+var current = "";
+
 /*Put into the showcase varialbe as a function*/
 function showcaseDisplay(items) {
-	$("#showcase").append(showcase(items)).hide().show(500);
+	if (current !== items[0]) {
+		current = items[0];
+		$("#showcase").append(showcase(items)).hide().slideDown();
+	}
 }
