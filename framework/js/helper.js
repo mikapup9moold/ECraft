@@ -8,10 +8,10 @@ var HTMLpictureItem = '<li class="flex-item button"><span><h4 class="hide">%text
 var HTMLheaderComplete = '<div class="col-12 heading">%image%<div class="col-6 mob">%title%</div><div class="col-12 rectangle container"><div class="col-7 mob">%blurb%%menu%</div><div class="col-5 mob">%imgMenu%</div></div></div>';
 
 /*Showcase menu horizontal*/
-var HTMLshowcaseItem = '<div class="col-1 showItem"><img src="%url%" class="showImage"><h5>%name%</h5></div>';
+var HTMLshowcaseItem = '<div class="col-1 showItem"><img src="%url%" class="showImage" onclick="individual(%identity%)"><h5>%name%</h5></div>';
 var HTMLshowcase = '<div class="col-12 showcase container">%data%</div>';
 
 /*Individual item display w/description*/
-var HTMLindivImage = '<div class="col-6"><div class="col-12"><img src="images/menu1.jpg"></div></div>';
-var HTMLindivDescrip = '<div class="col-6"><div class="col-12"><p></p></div></div>';
+var HTMLindivImage = '<div class="col-6"><div class="col-12 indivImageCont"><img src="%url%" class="indivImage"></div></div>';
+var HTMLindivDescrip = '<div class="col-6"><div class="col-12"><p>%desc%</p></div></div>';
 var HTMLindivHolder = '<div class="col-12 individual container">%data%</div>';

@@ -107,6 +107,8 @@ body {
 	margin-left: 5%;
 }
 
+/*SHOWCASE*/
+
 .showcase {
 	justify-content: space-between;
 	background-color: #5F9EA0;
@@ -119,7 +121,33 @@ body {
 
 .showImage {
 	min-height: 6vw;
+	cursor: pointer;
 }
+
+/*INDIVIDUAL ITEMS*/
+
+.individual {
+	background-color: #778899;
+}
+
+.indivImageCont {
+	padding-left: 10%;
+	margin-top: 5%;
+}
+
+.indivImage {
+	border:5px solid #5F9EA0;
+}
+
+p {
+	margin:5%;
+	background-color:#D1EEEE;
+	padding:5%;
+	text-indent:25px;
+	border:5px solid #5F9EA0;
+}
+
+
 
 a:link, a:visited {
   color: white;

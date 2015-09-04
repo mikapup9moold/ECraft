@@ -97,31 +97,31 @@ var bang10 = {name		 : 'name',
 };
 
 var bangles = [
-	bang1, bang2, bang3, bang4, bang5, bang6, bang7, bang8, bang9, bang10
+	'bang', bang1, bang2, bang3, bang4, bang5, bang6, bang7, bang8, bang9, bang10
 ];
 
 var jewelery = {
 
 };
 
-var items_001 = {
-	pic:imurl, pic1:imurl, pic2:imurl, pic3:imurl, pic4:imurl,
-	pic5:imurl, pic6:imurl, pic7:imurl, pic8:imurl, pic9:imurl
-}
-
 var showcase = function(items) {
 	var holder = [];
-	for(i = 0; i < items.length; i++) {
+	for(i = 1; i < items.length; i++) {
 		var formattedItem = HTMLshowcaseItem.replace("%name%", items[i].name);
 		formattedItem = formattedItem.replace("%url%", items[i].images);
+		formattedItem = formattedItem.replace("%identity%", items[0] + i);
 		holder.push(formattedItem);
 	}
 	var formattedShowcase = HTMLshowcase.replace("%data%", holder.join(""));
 	return formattedShowcase;
 }
 
-var individual = function() {
-
+var individual = function(item) {
+	$(".individual").remove();
+	var formattedImage = HTMLindivImage.replace("%url%", item.images);
+	var formattedDescrip = HTMLindivDescrip.replace("%desc%", item.description);
+	var formattedHolder = HTMLindivHolder.replace("%data%", formattedImage + formattedDescrip);
+	$("#individual").append(formattedHolder);
 }
 
 header.display();
