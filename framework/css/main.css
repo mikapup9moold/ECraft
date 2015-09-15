@@ -50,6 +50,10 @@ body {
 	margin: 0;
 }
 
+.button {
+	cursor:pointer;
+}
+
 .button:hover .small {
 	opacity: .3;
 	z-index: 0;
