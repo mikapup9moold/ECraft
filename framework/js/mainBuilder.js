@@ -97,9 +97,127 @@ var bang10 = {name		 : 'name',
 			 description : 'description',
 			 price		 : '$19.99'
 };
+var bang11 = {name		 : 'name',
+			 images		 : 'images/bang11-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang12 = {name		 : 'name',
+			 images		 : 'images/bang12-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang13 = {name		 : 'name',
+			 images		 : 'images/bang13-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang14 = {name		 : 'name',
+			 images		 : 'images/bang14-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang15 = {name		 : 'name',
+			 images		 : 'images/bang15-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang16 = {name		 : 'name',
+			 images		 : 'images/bang16-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang17 = {name		 : 'name',
+			 images		 : 'images/bang17-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang18 = {name		 : 'name',
+			 images		 : 'images/bang18-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang19 = {name		 : 'name',
+			 images		 : 'images/bang19-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang20 = {name		 : 'name',
+			 images		 : 'images/bang20-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang21 = {name		 : 'name',
+			 images		 : 'images/bang21-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang22 = {name		 : 'name',
+			 images		 : 'images/bang22-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang23 = {name		 : 'name',
+			 images		 : 'images/bang23-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang24 = {name		 : 'name',
+			 images		 : 'images/bang24-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang25 = {name		 : 'name',
+			 images		 : 'images/bang25-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang26 = {name		 : 'name',
+			 images		 : 'images/bang26-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang27 = {name		 : 'name',
+			 images		 : 'images/bang27-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang28 = {name		 : 'name',
+			 images		 : 'images/bang28-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang29 = {name		 : 'name',
+			 images		 : 'images/bang29-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang30 = {name		 : 'name',
+			 images		 : 'images/bang30-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'
+};
+var bang31 = {name		 : 'name',
+			 images		 : 'images/bang31-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'	
+};
+var bang32 = {name		 : 'name',
+			 images		 : 'images/bang32-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'	
+};
+var bang33 = {name		 : 'name',
+			 images		 : 'images/bang28-200.jpg',
+			 description : 'description',
+			 price		 : '$19.99'	
+};
 
 var bangles = [
-	'bang', bang1, bang2, bang3, bang4, bang5, bang6, bang7, bang8, bang9, bang10
+	'bang', bang1, bang2, bang3, bang4, bang5, bang6, bang7, bang8, bang9, bang10,
+	bang11, bang12, bang13, bang14, bang15, bang16, bang17, bang18, bang19, bang20,
+	bang21, bang22, bang23, bang24, bang25, bang26, bang27, bang28, bang29, bang30,
+	bang31, bang32, bang33
 ];
 
 var jewelery = {
