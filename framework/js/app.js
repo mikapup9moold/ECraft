@@ -1,5 +1,5 @@
 (function() {
-	var app = angular.module('eStore', []);
+	var app = angular.module('eStore', ['merch-directives']);
 	app.controller('SiteHeader', function() {
 		var header = this;
 		header.menu = {  "Home"    : 'index.html',
@@ -11,7 +11,7 @@
 				   		   "Bangles": "images/bang1-200.jpg",
 				   "Greeting Cards" : "images/twoBird-200.jpg"
 		};
-		header.tab = 
+
 	});
 
 	app.controller('ShowcaseController', function() {
