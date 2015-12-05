@@ -1,5 +1,5 @@
 (function() {
-	var app = angular.module('eStore', ['merch-directives']);
+	var app = angular.module('eStore', ['directives']);
 	app.controller('SiteHeader', function() {
 		var header = this;
 		header.menu = {  "Home"    : 'index.html',
@@ -24,3 +24,6 @@
 		store.products = [];
 	});
 })();
+
+
+//http://localhost:90/

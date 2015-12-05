@@ -7,7 +7,7 @@
 	  <link href="css/main.css" rel="stylesheet" type="text/css">
 	  <script src="js/jQuery.min.js" type="text/javascript"></script>
 	  <script src="js/angular.min.js"></script>
-	  <script src="js/merchandise.js"></script>
+	  <script src="js/directives.js"></script>
 	  <script src="js/app.js" type="text/javascript"></script>
 	</head>
 	<body>
@@ -21,27 +21,11 @@
 					<div class="col-7 mob">
 						<h2 class="blurb mobGone">Authentic handmade Japanese crafts made from luxurious yuzen-washi paper</h2>
 						<h3 class="menu">
-							<u1 id="menu" class="flex-box">
-
-								<!--Candidate for a custom directive-->
-
-								<li ng-repeat="(key, value) in header.menu" class="flex-item">
-									<span><a href="{{::value}}" class="menu">{{::key}}</a></span>
-								</li>
-
-								<!--********************************-->
-							</u1>
+							<u1 header-menu id="menu" class="flex-box"></u1>
 						</h3>
 					</div>
 					<div class="col-5 mob">
-						<u1 id="imgMenu" class="flex-box imgMenu">
-
-							<!-- Candidate for a custom directive-->
-							<merch-tabs></merch-tabs>
-
-
-							<!--*********************************-->
-						</u1>
+						<u1 merch-tabs id="imgMenu" class="flex-box imgMenu"></u1>
 					</div>
 				</div>
 			</div>
