@@ -1,5 +1,5 @@
 (function() {
-	var app = angular.module('eStore', ['directives']);
+	var app = angular.module('eStore', ['head-directives']);
 	app.controller('SiteHeader', function() {
 		var header = this;
 		header.menu = {  "Home"    : 'index.html',

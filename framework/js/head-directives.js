@@ -1,5 +1,5 @@
 (function() {
-	var app = angular.module('directives', []);
+	var app = angular.module('head-directives', []);
 
 	app.directive('headerMenu', function() {
 		return {
@@ -11,7 +11,7 @@
 					this.tab = current;
 					console.log(this.tab);
 				};
-				header.isSet = function(currentTab) {
+				this.isSet = function(currentTab) {
 					return this.tab === currentTab;
 				};					
 			},
@@ -29,7 +29,8 @@
 					this.tab = current;
 					console.log(this.tab);
 				};
-				header.isSet = function(currentTab) {
+				this.isSet = function(currentTab) {
+					console.log(this.tab + " is set.")
 					return this.tab === currentTab;
 				};				
 			},

@@ -7,7 +7,7 @@
 	  <link href="css/main.css" rel="stylesheet" type="text/css">
 	  <script src="js/jQuery.min.js" type="text/javascript"></script>
 	  <script src="js/angular.min.js"></script>
-	  <script src="js/directives.js"></script>
+	  <script src="js/head-directives.js"></script>
 	  <script src="js/app.js" type="text/javascript"></script>
 	</head>
 	<body>
@@ -30,7 +30,9 @@
 				</div>
 			</div>
 		</div>
-		<div ng-controller="ShowcaseController as showcase" id="showcase" class="container"></div>
+		<div ng-controller="ShowcaseController as showcase" id="showcase" class="container">
+			<div>Bangles Showcase</div>
+		</div>
 		<div id="individual" class="container"></div>
 		<div class="col-12 individual container">
 			<div class="col-6"><div class="col-12 indivImageCont"><img src="images/menu1.jpg" class="indivImage"></div></div>
