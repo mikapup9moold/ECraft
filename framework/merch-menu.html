@@ -1,4 +1,4 @@
-<li ng-repeat="(key, value) in header.items" ng-click="tab.setTab(key)" class="flex-item button">
+<li ng-repeat="(key, value) in site.items" ng-click="tab.setTab(key)" ng-class="{current: tab.isSet(key)}" class="flex-item button">
 	<span>
 		<h4 class="hide">{{key}}</h4>
 		<img ng-src="{{value}}" class="small">
