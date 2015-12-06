@@ -9,7 +9,7 @@
 		};
 		site.items = { "Pictures" : "images/menu1-200.jpg",
 				   		   "Bangles": "images/bang1-200.jpg",
-				   "Greeting Cards" : "images/gcard-icon-final.png"
+				   "Greeting Cards" : "images/gcard-menu-icon.png"
 		};
 
 	});
