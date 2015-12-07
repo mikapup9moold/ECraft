@@ -7,8 +7,8 @@
 			   	  		 "FAQ"     : 'faq.html',
 			 	  		 "Contact" : 'contact.html'
 		};
-		site.items = { "Pictures" : "images/menu1-200.jpg",
-				   		   "Bangles": "images/bang1-200.jpg",
+		site.items = { "Pictures" : "images/picture-menu-icon.png",
+				   		   "Jewelry": "images/jewelry-menu-icon.png",
 				   "Greeting Cards" : "images/gcard-menu-icon.png"
 		};
 
